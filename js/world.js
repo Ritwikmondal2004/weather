@@ -66,7 +66,10 @@ async function city(cityName) {
 
     if (data.weather[0].main === "Rain") {
       weatherImg.src = "img/rain.png";
-    } else if (data.weather[0].main === "Clear" || data.weather[0].main === "Clear Sky") {
+    } else if (
+      data.weather[0].main === "Clear" ||
+      data.weather[0].main === "Clear Sky"
+    ) {
       weatherImg.src = "img/sun.png";
     } else if (data.weather[0].main === "Snow") {
       weatherImg.src = "img/snow.png";
@@ -94,7 +97,6 @@ async function city(cityName) {
     box.appendChild(weatherBox);
 
     return weatherBox;
-
   } else {
     return "";
   }

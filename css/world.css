@@ -11,11 +11,11 @@
   --white-color: #fff;
 }
 body {
-  background-color: #B4D6F3;
+  background-color: #b4d6f3;
 }
 
 #screen {
-  background-color: #E0EEFA;
+  background-color: #e0eefa;
   width: 100%;
   height: 100%;
 }
@@ -43,7 +43,7 @@ nav ul li a {
 }
 
 /* main section */
-.section{
+.section {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -56,29 +56,29 @@ nav ul li a {
   padding: 30px 0;
   color: var(--font-color-main);
 }
-.button{
+.button {
   font-size: 20px;
   color: var(--font-color-main);
 }
 /* section-box */
-.section-box{
+.section-box {
   width: auto;
   height: 100%;
   padding: 0 80px;
   display: flex;
   justify-content: center;
 }
-.add-section{
+.add-section {
   min-width: 280px;
   height: 250px;
   top: -60rem;
   border-radius: 40px;
   border: 1px solid var(--white-color);
   position: absolute;
-  transition: .4s ease-in;
+  transition: 0.4s ease-in;
   background-color: var(--font-color-main);
 }
-.add-section-title{
+.add-section-title {
   text-align: center;
   color: var(--white-color);
   padding-top: 40px;
@@ -119,7 +119,7 @@ nav ul li a {
 .search input::placeholder {
   color: var(--font-color-main);
 }
-.messages{
+.messages {
   color: var(--white-color);
   font-size: 15px;
   text-align: center;
@@ -127,16 +127,16 @@ nav ul li a {
   font-weight: 500;
   margin-top: 10px;
 }
-.normal-message{
+.normal-message {
   display: block;
 }
-.error-message{
+.error-message {
   display: none;
 }
-.added-message{
+.added-message {
   display: none;
 }
-.city-box{
+.city-box {
   gap: 10px;
 }
 .box {
@@ -195,7 +195,7 @@ nav ul li a {
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.494);
   }
-  nav{
+  nav {
     border-radius: 0 0 20px 20px;
   }
 }
