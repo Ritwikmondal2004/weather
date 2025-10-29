@@ -5,7 +5,7 @@ async function search(city, state, country) {
   let url = await fetch(
     `https://api.openweathermap.org/data/2.5/weather?units=metric&q=${city},${state},${country}&appid=${apiKey}`
   );
-
+  //url check
   if (url.ok) {
     let data = await url.json();
     console.log(data);

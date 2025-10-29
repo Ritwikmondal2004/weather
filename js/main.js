@@ -71,7 +71,7 @@ navigator.geolocation.getCurrentPosition(
 
       // Fetch and display 5-day forecast data
       const forecastUrl = `https://api.openweathermap.org/data/2.5/forecast?q=${data.city.name}&appid=${apiKey}&units=metric`;
-
+      // for fourcast
       fetch(forecastUrl)
         .then((response) => response.json())
         .then((data) => {
@@ -101,7 +101,7 @@ navigator.geolocation.getCurrentPosition(
             };
           }
         });
-
+        //daily forest rain;
         for (const date in dailyForecasts) {
           let imgSrc = "";
 
